@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 st.title("🏠 House Price Prediction (Multiple Linear Regression)")
 
 # Load dataset
-df = pd.read_csv("housing.csv")
+df = pd.read_csv("Boston.csv")
 
 # Show dataset
 st.subheader("Dataset Preview")
